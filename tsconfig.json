@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "sourceMap": true,
+    "types": ["node", "jquery", "tween.js"],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "node_modules/phaser/typescript/phaser.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

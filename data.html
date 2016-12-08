@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>数据绑定测试</title>
+</head>
+<body>
+
+<div id="app" class="test">
+
+    标题： {{title }}
+
+    <p>
+        我今年{{age}}岁了, 性别：{{sex}}。 {{age+age}}.... {{age}}
+    </p>
+
+    <p>
+        大家好，我的名字是{{ name }}。
+    </p>
+
+    <div>
+
+        <div>
+
+        </div>
+
+        <div>
+            <div>
+                <div>喜欢{{love.length}}种水果, {{test0.a.b}}</div>
+            </div>
+        </div>
+
+        <div>
+
+        </div>
+
+    </div>
+
+    <h3>计算器</h3>
+    <p>1+1={{1+1}}</p>
+    <p>2x2={{2*2}}</p>
+
+</div>
+
+</body>
+
+<script src="dist/data.js"></script>
+</html>
